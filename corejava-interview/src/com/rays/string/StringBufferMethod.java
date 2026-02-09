@@ -9,6 +9,10 @@ public class StringBufferMethod {
 		System.out.println(sb.toString());
 
 		System.out.println("Length = " + sb.length());
+		
+		System.out.println("Insert = "+ sb.insert(0, "Hii"));
+		
+		System.out.println("Delete = "+ sb.delete(0, 2));
 
 		System.out.println("Capacity = " + sb.capacity());
 

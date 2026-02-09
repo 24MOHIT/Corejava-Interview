@@ -7,16 +7,19 @@ public class StringMethods {
 		String name = "Mohit";
 		String str = "Prajapat";
 		
+//		String e = name + str;
+//		System.out.println(e);
+		
 		System.out.println("String Length = "+ name.length());
 		System.out.println("UpperCase = "+ name.toUpperCase());
 		System.out.println("LowerCase = "+ name.toLowerCase());
 		System.out.println("StartWith = "+ name.startsWith("M"));
 		System.out.println("EndWith = "+ name.endsWith("t"));
 		System.out.println("CharAt = "+ name.charAt(0));
-		System.out.println("IndexOf = "+ name.indexOf("i"));
+		System.out.println("IndexOf = "+ name.indexOf("M"));
 		System.out.println("LastIndexOf = "+ name.lastIndexOf("t"));
 		System.out.println("SubString = "+ name.substring(1));
-		
+//		System.out.println(name.substring(0, 1));
 		System.out.println("Trim = "+ name.trim());
 		System.out.println("Concat = "+ name.concat(str));
 		System.out.println("Concat = "+ str.concat(name));
@@ -39,5 +42,7 @@ public class StringMethods {
 			
 			boolean b = (s3 == s4);
 			System.out.println(b);
+			boolean p = s3.equals(s4);
+			System.out.println(p);
 	}
 }
