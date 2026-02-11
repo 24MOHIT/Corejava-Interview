@@ -18,6 +18,8 @@ public class TestAbsClass extends AbstractClass {
 
 		t.simple();
 		t.show();
+		
+		AbstractClass.simple();
 
 	}
 
