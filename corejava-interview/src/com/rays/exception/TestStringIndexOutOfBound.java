@@ -8,7 +8,7 @@ public class TestStringIndexOutOfBound {
 		String a[] = { "a", "b" };
 
 		try {
-			
+
 			System.out.println(10 / 0);
 			System.out.println(a[3]);
 			System.out.println(s.charAt(5));

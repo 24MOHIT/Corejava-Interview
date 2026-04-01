@@ -12,11 +12,11 @@ public class TestAccount {
 
 		try {
 
-			a.withdrawl(15001);
+			a.withdrawl(1500);
 
 		} catch (InsufficientBalance e) {
 			System.out.println(e);
 		}
-
+		
 	}
 }
