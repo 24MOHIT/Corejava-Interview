@@ -26,6 +26,7 @@ public class CollectionMethod {
 		System.out.println(c.size());
 		System.out.println(c.contains(10));
 		System.out.println(c.containsAll(c1));
+		System.out.println(c);
 		System.out.println(c.isEmpty());
 		c.remove(10);
 		System.out.println(c);

@@ -9,12 +9,11 @@ public class TestSet {
 
 		Set s = new HashSet();
 
-		
 		s.add("null");
 		s.add(1);
 		s.add(null);
-		s.add(null);
 		s.add(1);
+		
 		System.out.println(s);
 	}
 }
