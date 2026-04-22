@@ -13,7 +13,7 @@ public class TestComparator {
 		list.add(new Employee(1, "Anand", 5000));
 		list.add(new Employee(3, "Shyam", 3300));
 		list.add(new Employee(2, "Ajay", 4000));
-		list.add(new Employee(4, "Anande", 5000));
+		list.add(new Employee(4, "Aanand", 5000));
 
 		EmployeeSortByName byName = new EmployeeSortByName();
 
