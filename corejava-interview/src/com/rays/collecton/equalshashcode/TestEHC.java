@@ -14,7 +14,7 @@ public class TestEHC {
 		Employee e1 = new Employee(1, "Ram", 5000);
 
 		Employee e2 = new Employee(2, "Ajay", 8000);
-		
+
 		Employee e3 = new Employee(3, "Aman", 4000);
 
 		Employee e4 = new Employee(1, "Ram", 5000);
@@ -32,9 +32,9 @@ public class TestEHC {
 		System.out.println(list.contains(e1));
 
 		System.out.println(list.remove(e4));
-		
+
 		System.out.println(list);
-		
+
 		System.out.println(list.size());
 
 		System.out.println("...................Set.........................");
@@ -44,14 +44,14 @@ public class TestEHC {
 		s.add(e1);
 		s.add(e2);
 		s.add(e4);
-System.out.println("/////////");
-		
+		System.out.println("/////////");
+
 		System.out.println(s.contains(e2));
 
 		System.out.println(s.remove(e4));
-		
+
 		System.out.println(s);
-		
+
 		System.out.println("....................Map.........................");
 
 		Map m = new HashMap();
@@ -61,26 +61,25 @@ System.out.println("/////////");
 		m.put(e4, "three");
 
 		System.out.println(m);
-		
+
 		System.out.println(m.containsKey(e1));
-		
+
 		System.out.println(m.remove(e2));
-		
+
 		System.out.println(m);
 
 		System.out.println("....................String.........................");
-		
+
 		String s1 = "Anand";
-		
+
 		String s2 = "Raju";
-		
+
 		System.out.println(s1.equals(s2));
-				
+
 		System.out.println(s1);
 		System.out.println(s2);
-		
+
 		System.out.println(e1.equals(e2));
 
-		
 	}
 }

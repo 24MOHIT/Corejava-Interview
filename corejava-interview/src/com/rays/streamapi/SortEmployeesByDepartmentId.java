@@ -20,7 +20,7 @@ public class SortEmployeesByDepartmentId {
 				.collect(Collectors.toCollection(ArrayList::new));
 
 		sortedEmployees.forEach(
-				employee -> System.out.println(employee.getName() + " - Salary: " + employee.getDepartmentId()));
+				employee -> System.out.println(employee.getName() + " " + employee.getDepartmentId()));
 
 	}
 }
