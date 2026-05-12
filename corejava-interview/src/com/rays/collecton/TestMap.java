@@ -20,6 +20,8 @@ public class TestMap {
 		System.out.println(map.get(1));
 		
 		System.out.println(map.containsKey(1));
+		
+		System.out.println(map.containsValue("Two"));
 
 		System.out.println(map);
 		

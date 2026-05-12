@@ -3,6 +3,7 @@ package com.rays.collecton;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class MapIterator {
 
@@ -29,5 +30,14 @@ public class MapIterator {
 			System.out.println(o);
 		}
 
+		TreeMap t = new TreeMap();
+		t.put(1, "Ram");
+		t.put(3, "Shyam");
+		t.put(2, "Lakhan");
+		t.put(4, null);
+
+		for (Object o : t.keySet()) {
+			System.out.println(o);
+		}
 	}
 }

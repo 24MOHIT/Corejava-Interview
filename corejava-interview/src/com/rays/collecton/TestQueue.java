@@ -12,8 +12,10 @@ public class TestQueue {
 		q.offer(100);
 		q.offer(200);
 		q.add(300);
+	
 
 		System.out.println(q.offer(300));
+		
 
 		System.out.println(q);
 	}

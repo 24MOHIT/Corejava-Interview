@@ -17,7 +17,7 @@ public class TestStack {
 		
 		System.out.println(s);
 		
-		System.out.println(s.peek());
+		System.out.println(s.peek()); // Last in First out
 		
 		System.out.println(s);
 		

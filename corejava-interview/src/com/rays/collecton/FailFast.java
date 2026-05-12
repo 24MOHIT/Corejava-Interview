@@ -18,9 +18,11 @@ public class FailFast {
 		Iterator it = list.iterator();
 		
 		list.add("Lakhan");
+	
 
 		while (it.hasNext()) {
 			System.out.println(it.next());
+			
 		}
 	}
 }

@@ -12,8 +12,15 @@ public class TestSortedSet {
 		s.add(300);
 		s.add(500);
 		s.add(100);
-
+		s.add(400);
+		
 		System.out.println(s);
+		
+		System.out.println(s.first());
+		System.out.println(s.last());
+		System.out.println(s.headSet(400));
+		System.out.println(s.tailSet(300));
+		System.out.println(s.subSet(400, 500));
 
 		TreeSet t = new TreeSet();
 
