@@ -44,5 +44,12 @@ public class StringMethods {
 			System.out.println(b);
 			boolean p = s3.equals(s4);
 			System.out.println(p);
+			
+			
+			boolean p1 = s5.equals(s3);
+			System.out.println(p1);
+			
+			boolean b1 = (s3 == s5);
+			System.out.println(b1);
 	}
 }
