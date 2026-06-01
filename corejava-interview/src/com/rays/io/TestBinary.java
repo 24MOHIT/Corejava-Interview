@@ -3,7 +3,7 @@ package com.rays.io;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-public abstract class TestBinary {
+public class TestBinary {
 
 	public static void main(String[] args) throws Exception {
 
