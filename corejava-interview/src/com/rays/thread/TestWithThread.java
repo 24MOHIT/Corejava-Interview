@@ -8,6 +8,7 @@ public class TestWithThread {
 		WithThread t2 = new WithThread("verma");
 
 		t1.start();
+
 		t2.start();
 
 	}
